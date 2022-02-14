@@ -11,3 +11,7 @@ im mariam ❤
 
 
 #get ready for your first classwork ☠
+
+
+
+Learning Web Development has been a life long dream of mine, and I'm more than happy to finally get the opportunity to realize my dream. Huge thank you to the honourable lecturer and the two mentors of this course. 
