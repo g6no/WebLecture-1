@@ -7,6 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 2</title>
+
+    <style>
+        #helloSecond, h2{
+            background-color: #ff8800;
+            color: white;
+        }
+        .card{
+            background-color: aqua;
+            color: white;
+            border: 5px solid black;
+        }
+
+        .card h2{
+            /* nesting to reference any element of type h2 in class card */
+            background-color: blue;
+            color: white;
+        }
+        /* *{
+            text-decoration: underline;
+        } */
+    </style>
     <!-- <link rel = "icon" href = "./images/test.ico" /> -->
     <!-- or we can comment using cmd backslash -->
     <!-- Hidden information section -->
@@ -23,7 +44,7 @@
     <section></section>
     <footer></footer> -->
 
-    <header id = "helloFirst">
+    <header id = "helloFirst" class = "card">
         <!-- Can be thought of as a Container -->
         <h2>Welcome</h2>
         <h3>To my Page</h3>
@@ -41,8 +62,7 @@
         <a href="./index.html"> Main Page</a>
     </nav>
 
-    <main id = "helloMain">
-        <!-- Can be thought of as a Container -->
+    <main id = "helloMain" class = "card">
         <header>
             <h2>Welcome</h2>
             <h3>To my Page</h3>
