@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pic{
+            width: 150px;
+            margin-left: 10px;
+            opacity: 0.5;
+            text-align: center;
+        }
+        .block{
+            display: block;
+        }
+        p{
+            font-size: 32px;
+            font-weight: bold;
+            font-style: italic;
+            font-family: "-apple-system", BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: grey;
+        }
+        p:hover{
+            color: red;
+        }
+        p.longText::first-line{
+            font-size: 40px;
+        }
+        .center{
+            text-align: center;
+        }
+        #mainSection{
+            background-image: url(https://wallpaper.dog/large/20512774.png);
+            /* background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat; */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            border: 5px solid aqua;
+        }
+        body{
+            margin: 0;
+        }
+        .text-white{
+            color: white;
+        }
+        .text-decoration{
+            text-decoration: underline;
+        }
+        .text-indent{
+            text-indent: 20px;
+        }
+        .shadow{
+            text-shadow: 0px 0px 5px rgb(216, 44, 216);
+        }
+        .changeDot{
+            list-style: square;
+        }
+        .changeNum{
+            list-style: lower-roman;
+        }
+    </style>
+</head>
+<body>
+    <!-- <section id="mainSection">
+        <p class="center shadow">Hello World</p>
+        <img class = "pic" src = "./images/BoS Logo.png" 
+        alt = "BoS Logo" />
+        <span class="block center">Hi! Im a span</span>
+        <a href="https://google.com" target="_blank">Click to open google</a>
+        <p class="text-white text-decoration shadow">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus impedit modi excepturi eaque sed expedita, iure facere fugiat doloribus provident porro alias deleniti laudantium fugit delectus error odit. Asperiores magni velit earum nisi, corporis tenetur aspernatur maxime ullam libero consequatur illo, commodi veritatis delectus fugiat voluptates esse quos! Cum eligendi nihil debitis facere nobis quaerat. Dolor aliquid recusandae corporis quaerat repudiandae, laboriosam ipsa numquam doloremque ut cum suscipit velit magnam unde quisquam ab temporibus dolorem labore voluptates earum porro consequatur officia tempora aperiam. Quaerat sit commodi aliquid dicta tempore labore nostrum iusto animi quis. Aut eos iure sint libero deleniti.
+        </p>   
+    </section> -->
+
+    <ul class="changeDot">
+        <li>Hi</li>
+        <li>Hello</li>
+        <li>Ahlan</li>
+    </ul>
+    <ol class="changeNum">
+        <li>Hi</li>
+        <li>Hello</li>
+        <li>Ahlan</li>
+    </ol>
+
+</body>
+</html>
